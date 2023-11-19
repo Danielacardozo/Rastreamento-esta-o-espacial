@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image:url('https://s2.glbimg.com/ntYDteZ2Bft42wQbHnk5ai1iViI=/e.glbimg.com/og/ed/f/original/2022/07/02/pexels-alberlan-barros-7311920.jpg');
+    background-size: cover;
+    /* Para cobrir todo o fundo */
+    background-position: center;
+    /* Para centralizar a imagem */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+}
+
+#earth_div {
+    height: 400px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.info-container {
+    padding: 15px;
+}
+
+#div_Atualizacao {
+    padding: 10px;
+    background-color: #495057;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    font-family: 'Sua Fonte Específica', sans-serif;
+    font-size: 2em;
+    /* Tamanho da fonte */
+    color: #333;
+    /* Cor do texto */
+    margin: 0;
+    /* Remover margens padrão */
+}
